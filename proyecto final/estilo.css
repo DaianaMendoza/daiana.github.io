@@ -1,0 +1,85 @@
+ul {
+    list-style: none;
+}
+/* Estilo para el encabezado (header) */
+#head {
+    display: flex; /* Establece un modelo de caja flexible */
+    justify-content: space-evenly; /* Distribuye los elementos horizontalmente */
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: rgb(17, 106, 112); /* Color de fondo opcional */
+    padding: 10px; /* Espaciado interior opcional */
+    color: black; /* Color del texto opcional */
+}
+
+/* Estilo para el logo */
+#logo {
+    font-size: 50px; /* Tamaño de fuente opcional */
+    font-weight: bold; /* Peso de fuente opcional */
+}
+
+/* Estilo para el nombre */
+#nombre {
+    font-size: 50px; /* Tamaño de fuente opcional */
+}
+
+/* Estilo para el menú de navegación */
+#navegador ul {
+    list-style: none; /* Quita los marcadores de lista */
+    display: flex; /* Establece un modelo de caja flexible */
+}
+
+/* Estilo para los elementos del menú */
+#navegador ul li {
+    margin-right: 20px; /* Espaciado entre elementos del menú opcional */
+}
+
+/*aca empieza el main*/
+
+.contenedor{
+    margin: 10px;
+    background-color: rgb(18, 173, 119);
+}
+.informacion{
+    text-align: center;
+    padding: 10px;
+}
+ img {
+    border-radius: 50%;
+}
+.redes li i{
+   font-size: 50px;
+   color: rgb(18, 56, 43);
+    cursor: pointer;
+   .text{
+        display: none;
+   }
+}
+.acercademi{
+    background-color: rgb(15, 59, 59);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 2%;
+}
+.acercademi h2{
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*clases js*/
+
+/* Cambiar el color de fondo del footer */
+footer {
+    background-color:rgb(17, 106, 112); /* Puedes cambiar "#333" al color que desees */
+    border-radius: 5%;
+    margin: 20px;}
+  
+  /* Cambiar el color de texto del footer */
+  footer p {
+    color:black; /* Puedes cambiar "#fff" al color de texto que desees */
+    font-weight: bold;
+    font-size: 20px;
+    
+    
+  }
+  
+
